@@ -85,7 +85,7 @@ window.contentfulExtension.init(function(api) {
   }
 
   var sub = location.host == "contentful.staging.tiny.cloud" ? "cdn.staging" : "cdn";
-  var apiKey = api.parameters.installation.apiKey;
+  var apiKey = "ew3aymb0j6kompypnggrtkkk90goygpbj5fz3hz6cd57d5gy";
   var channel = api.parameters.installation.channel;
   var tinymceUrl = "https://" + sub + ".tiny.cloud/1/" + apiKey + "/tinymce/" + channel + "/tinymce.min.js";
 
